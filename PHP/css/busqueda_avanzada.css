@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.col-codigo {
+    min-width: 100px;
+    white-space: nowrap;
+}
+
+.barra {
+    background-color: #2f4f6f;
+    color: white;
+    padding: 16px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+    background-color: #1f354d;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.barra a:hover {
+    background-color: #17283a;
+}
+
+.contenido {
+    max-width: 1500px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+.menu {
+    margin-bottom: 22px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 4px 4px 4px 0;
+    padding: 9px 12px;
+    background-color: #e8eef5;
+    color: #1f354d;
+    border: 1px solid #b8c5d4;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.menu a:hover {
+    background-color: #d9e4f0;
+}
+
+h2 {
+    margin-top: 0;
+    color: #1f354d;
+}
+
+h3 {
+    color: #1f354d;
+    margin-top: 25px;
+}
+
+.formulario {
+    max-width: 520px;
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 14px;
+    height: 38px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.acciones {
+    margin-top: 18px;
+}
+
+button {
+    padding: 9px 14px;
+    background-color: #2f4f6f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f354d;
+}
+
+.limpiar {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 8px 12px;
+    background-color: #e8eef5;
+    color: #1f354d;
+    border: 1px solid #b8c5d4;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.limpiar:hover {
+    background-color: #d9e4f0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    background-color: white;
+}
+
+th {
+    background-color: #e8eef5;
+    color: #1f354d;
+    padding: 10px;
+    border: 1px solid #b8c5d4;
+    text-align: left;
+}
+
+td {
+    padding: 9px;
+    border: 1px solid #d0d0d0;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.estado {
+    font-weight: bold;
+}
+
+.mensaje {
+    padding: 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
